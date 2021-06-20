@@ -51,7 +51,7 @@ class MainActivity : AppCompatActivity() {
                 Constans.Driver ->{
                     bindingClass.textView2.visibility = View.VISIBLE
                     val tempText = " Водитель получите Ваши ${Constans.Driver_Salary}$"
-                     if (bindingClass.editTextPassword.text.toString() == Constans.Director_Password) {
+                     if (bindingClass.editTextPassword.text.toString() == Constans.Driver_Password) {
                          bindingClass.textView2.text = tempText
                          bindingClass.imPhoto.setImageResource(R.drawable.myavatar_2)
 

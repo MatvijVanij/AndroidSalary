@@ -7,12 +7,12 @@ object Constans {
     const val  PMHead_Salary = 10000
     const val  SuperHead_Salary = 100000
 
-    const val Director = "Ivan"
-    const val Enginer = "Kola"
+    const val Director = "Vania"
+    const val Enginer = "Kolia"
     const val Driver = "Vasia"
     const val PMHead = "Lesha"
     const val SuperHead = "Sasha"
-    const val AllPerson = "Ivan,Kola,Vasia,Lesha,Sasha"
+    const val AllPerson = "Vania,Kolia,Vasia,Lesha,Sasha"
 
     const val  Director_Password = "1"
     const val  Enginer_Password = "2"
