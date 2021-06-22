@@ -11,13 +11,13 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
         bindingClass = ActivityMainBinding.inflate(layoutInflater)
         setContentView(bindingClass.root)
         bindingClass.textViewAllName.text = "You name ${Constans.AllPerson}"
         bindingClass.buttonSalary.setOnClickListener(){
 
             val resultValue = bindingClass.tPersonName.text.toString()
-
 
             when(resultValue){
 
